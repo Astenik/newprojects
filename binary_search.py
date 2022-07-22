@@ -14,4 +14,4 @@ def bin_search(lst, key):
        return -1
 key = int(input("insert the key: "))
 list = [12, 45, 67, 90, 1256]
-print(f''the {key}'s position in the {list} is: {bin_search(list, key)}')
+print(f"the {key}'s position in the {list} is: {bin_search(list, key)}")
