@@ -3,7 +3,7 @@ def binary_search_rec(lst, key, start, end):
        my function have 4 argument where the first argument is the list
        the second argument is the key the third argument is the start of my list
        and the 4-rd argument is the end of my list.'''
-       if len(lst) == 0:
+       if start > end:
             return -1 
        mid = (start + end) // 2
        if lst[mid] == key:
